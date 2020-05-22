@@ -108,7 +108,7 @@
             resultMessage = "1~3대 대통령 이승만!";
             break;
           case "윤보선":
-            resultMessage = "4대 대통령 윤보선!";
+            resultMessage = "4대 대통령 윤보선!!";
             break;
           case "박정희":
             resultMessage = "5~9대 대통령 박정희!";
@@ -148,7 +148,7 @@
 
         for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
-                prediction[i].className + "와" + prediction[i].probability.toFixed(2);
+                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }

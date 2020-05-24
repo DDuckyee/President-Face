@@ -209,3 +209,8 @@ body {
 .any2 {
   margin-top: 150px;
 }
+
+.ad-banner {
+  width : 320px;
+  margin: 0 auto;
+}

@@ -1,0 +1,2 @@
+User-agent: *Allow:/
+Sitemap: https://korea-president.netlify.app/sitemap.xml

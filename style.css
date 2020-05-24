@@ -147,8 +147,8 @@ body {
 
 .youtube-link {
   font-family: D2Coding;
-  font-size: 1.5rem;
-  line-height: 1.71px;
+  font-size: 1.3rem;
+  line-height: 1.7px;
   text-align: center;
   color: #f73737;
   text-decoration: underline;
@@ -156,8 +156,8 @@ body {
 
 .youtube-link:hover {
   font-family: D2Coding;
-  font-size: 1.5rem;
-  line-height: 1.71px;
+  font-size: 1.3rem;
+  line-height: 1.7px;
   text-align: center;
   color: #f73737;
   text-decoration: underline;
@@ -204,4 +204,8 @@ body {
   border-radius: 10px;
   border: solid 1.5px #f6f7fa;
   background-color: #f6f7fa;
+}
+
+.any2 {
+  margin-top: 150px;
 }

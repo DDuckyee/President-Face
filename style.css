@@ -169,6 +169,24 @@ body {
   text-decoration: underline;
 }
 
+.blog-link {
+  font-family: D2Coding;
+  font-size: 1.5rem;
+  line-height: 1.71px;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+.blog-link:hover {
+  font-family: D2Coding;
+  font-size: 1.5rem;
+  line-height: 1.71px;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
 .youtube-icon {
   width : 6%;
 }

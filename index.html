@@ -27,8 +27,8 @@
   <div class="mt-5 any"></div>
 
   <section class="section">
-    <h1 class="title">인공지능 대통령 닮은꼴 테스트</h1>
-    <h2 class="subtitle">어떤 대통령과 닮았을까?</h2>
+    <h1 class="title">인공지능 대통령 닮은꼴 테스트!</h1>
+    <h2 class="subtitle">나는 어떤 대통령과 닮았을까?</h2>
   </section>
 <!-- start -->
 
@@ -148,7 +148,7 @@
 
         for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
-                prediction[i].className + ": " + prediction[i].probability.toFixed(2);
+                prediction[i].className + "의 " + prediction[i].probability.toFixed(2)*100 + "%만큼 닮았습니다";
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
@@ -157,9 +157,10 @@
 <!-- end -->
 
 <section class="mb-5 youtube">
+  <a target="_blank" href="https://dduckyee.tistory.com/" class="container d-flex flex-row-reverse mt-4 blog-link">제작자 블로그</a>
   <div class="container mt-5 youtube-cover d-flex flex-row-reverse">
     <img src="img/4.png" alt="" class="youtube-icon">
-    <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="mt-4 youtube-link ">도움 조코딩 유튜브 채널</a>
+    <a  target="_blank" href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="mt-4 youtube-link ">도움 조코딩 유튜브 채널</a>
   </div>
 </section>
 
